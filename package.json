@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "description": "Create crayon project",
   "bin": {
-    "create-crayon": "yarn && bin/create-crayon.js"
+    "create-crayon": "bin/create-crayon.js"
   },
   "keywords": [
     "react",
@@ -20,7 +20,5 @@
   "author": "namoo <namoo.developer@gmail.com>",
   "license": "ISC",
   "dependencies": {},
-  "devDependencies": {
-    "chalk": "4.1.2"
-  }
+  "devDependencies": {}
 }

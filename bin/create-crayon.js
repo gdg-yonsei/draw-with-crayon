@@ -1,7 +1,6 @@
 #! /usr/bin/env node
 
 const child_process = require("child_process");
-const chalk = require("chalk");
 
 const REPOSITORY = "https://github.com/gdsc-ys/crayon.git";
 
@@ -22,11 +21,11 @@ function finish() {
 function checkValidation() {
   if (process.argv.length < 3) {
     console.info("Please specify the project name.");
-    console.info(chalk.yellow('Like "npx create-crayon my-blog"'));
+    console.info('Like "npx create-crayon my-blog"');
     finish();
   }
 
-  console.log(chalk.blue("Welcome to crayon!"));
+  console.log("Welcome to crayon!");
 }
 
 // Clone crayon project
@@ -64,7 +63,7 @@ function createCrayon() {
 try {
   createCrayon();
 
-  console.info(chalk.blue("Crayon is ready to use. Let's make your own blog!"));
+  console.info("Crayon is ready to use. Let's make your own blog!");
 } catch (error) {
-  console.error(chalk.red("Failed to initialize crayon."));
+  console.error("Failed to initialize crayon.");
 }
