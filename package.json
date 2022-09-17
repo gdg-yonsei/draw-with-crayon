@@ -1,6 +1,6 @@
 {
   "name": "create-crayon",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create crayon project",
   "bin": {
     "create-crayon": "bin/create-crayon.js"
