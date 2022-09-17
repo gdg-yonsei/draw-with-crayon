@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Create crayon project",
   "bin": {
-    "create-crayon": "bin/create-crayon.js"
+    "create-crayon": "yarn && bin/create-crayon.js"
   },
   "keywords": [
     "react",
