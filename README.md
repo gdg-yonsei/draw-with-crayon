@@ -2,9 +2,9 @@
 
 Crayon generator using command
 
-## What is crayon
+## What is crayon?
 
-Check this out for details.
+Check [this](https://github.com/gdsc-ys/crayon) out for details.
 
 ## Usage
 
