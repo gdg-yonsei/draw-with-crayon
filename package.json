@@ -1,0 +1,22 @@
+{
+  "name": "create-crayon",
+  "version": "0.1.0",
+  "description": "Create crayon project",
+  "bin": {
+    "create-crayon": "bin/create-crayon.js"
+  },
+  "keywords": [
+    "react",
+    "next.js",
+    "blog"
+  ],
+  "scripts": {
+    "start": "node bin/create-crayon.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "chalk": "4.1.2"
+  }
+}
