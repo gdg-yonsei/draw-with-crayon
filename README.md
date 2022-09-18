@@ -1,4 +1,4 @@
-# create-crayon
+# draw-with-crayon
 
 Crayon generator using command
 
@@ -9,5 +9,5 @@ Check [this](https://github.com/gdsc-ys/crayon) out for details.
 ## Usage
 
 ```
-npx create-crayon
+npx draw-with-crayon
 ```

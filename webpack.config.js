@@ -7,7 +7,7 @@ const config = {
   entry: "./src/index.js",
   output: {
     path: path.resolve("bin"),
-    filename: "create-crayon.js",
+    filename: "draw-with-crayon.js",
     chunkFormat: "module",
   },
   experiments: {

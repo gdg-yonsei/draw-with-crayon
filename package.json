@@ -1,10 +1,10 @@
 {
-  "name": "create-crayon",
-  "version": "0.1.8",
-  "description": "Create crayon project",
+  "name": "draw-with-crayon",
+  "version": "1.0.0",
+  "description": "Create a crayon project",
   "type": "module",
   "bin": {
-    "create-crayon": "bin/create-crayon.js"
+    "draw-with-crayon": "bin/draw-with-crayon.js"
   },
   "keywords": [
     "react",
@@ -14,12 +14,12 @@
   ],
   "scripts": {
     "build": "webpack",
-    "start": "node bin/create-crayon.js",
+    "start": "node bin/draw-with-crayon.js",
     "prepublishOnly": "yarn build"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gdsc-ys/create-crayon.git"
+    "url": "https://github.com/gdsc-ys/draw-with-crayon.git"
   },
   "author": "namoo <namoo.developer@gmail.com>",
   "license": "ISC",
