@@ -1,4 +1,5 @@
 import path from "path";
+import webpack from "webpack";
 
 const config = {
   mode: "production",
@@ -22,6 +23,12 @@ const config = {
       },
     ],
   },
+  plugins: [
+    new webpack.BannerPlugin({
+      banner: "#!/usr/bin/env node",
+      raw: true,
+    }),
+  ],
 };
 
 export default config;
