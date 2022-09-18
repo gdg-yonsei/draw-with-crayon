@@ -24,7 +24,7 @@ export const success = (message) => {
 };
 
 export const verbose = (message) => {
-  console.verbose(chalk.cyan(message));
+  console.log(chalk.cyan(message));
 };
 
 export const error = (message) => {
