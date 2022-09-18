@@ -14,6 +14,7 @@ import {
   FAIL_MESSAGE,
   INSTALL_PHASE_MESSAGE,
   INVALID_ARGUMENT_MESSAGE,
+  REPOSITORY,
   WELCOME_MESSAGE,
 } from "./constants";
 
@@ -63,6 +64,6 @@ try {
   createCrayon();
 
   success(COMPLETE_MESSAGE);
-} catch (error) {
-  error(FAIL_MESSAGE);
+} catch (_error) {
+  error(`${FAIL_MESSAGE}\n${_error}`);
 }

@@ -1,6 +1,6 @@
 {
   "name": "create-crayon",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Create crayon project",
   "type": "module",
   "bin": {
@@ -14,8 +14,8 @@
   ],
   "scripts": {
     "build": "webpack",
-    "start": "npm run build && node bin/create-crayon.js",
-    "publish": "npm run build && npm publish"
+    "start": "node bin/create-crayon.js",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
