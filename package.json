@@ -1,6 +1,6 @@
 {
   "name": "create-crayon",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Create crayon project",
   "type": "module",
   "bin": {
@@ -9,12 +9,13 @@
   "keywords": [
     "react",
     "next.js",
-    "blog"
+    "blog",
+    "crayon"
   ],
   "scripts": {
     "build": "webpack",
-    "start": "node bin/create-crayon.js",
-    "publish": "yarn build && npm publish"
+    "start": "npm run build && node bin/create-crayon.js",
+    "publish": "npm run build && npm publish"
   },
   "repository": {
     "type": "git",
