@@ -3,16 +3,20 @@ import webpack from "webpack";
 
 const config = {
   mode: "production",
+  target: "node",
   entry: "./src/index.js",
   output: {
     path: path.resolve("bin"),
     filename: "create-crayon.js",
+    chunkFormat: "module",
+  },
+  experiments: {
+    outputModule: true,
   },
   resolve: {
     modules: ["node_modules"],
     extensions: [".js"],
   },
-  externals: ["child_process"],
   module: {
     rules: [
       {

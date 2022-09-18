@@ -23,7 +23,6 @@
   },
   "author": "namoo <namoo.developer@gmail.com>",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
     "chalk": "^5.0.1",
     "commander": "^9.4.0",
