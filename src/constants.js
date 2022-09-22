@@ -14,7 +14,7 @@ export const WELCOME_MESSAGE = `
 
 export const INVALID_ARGUMENT_MESSAGE = `
 Please specify the project name like below.
-> npx create-crayon my-blog
+> npx draw-with-crayon my-sample-blog-name
 `;
 
 export const COMPLETE_MESSAGE =
